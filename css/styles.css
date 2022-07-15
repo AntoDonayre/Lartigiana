@@ -105,12 +105,27 @@ footer{
     font-family: nunito;
     color: #f5f5f5;
 }
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+}
 .contactanos a{
     text-decoration: none;
     list-style-type: none;
     font-weight: 800;
+    color: #f5f5f5;
 }
-
+.contactanos a:hover{
+    color: #e4382a;
+}
+.logoFooterContainer{
+    display: flex;
+    flex-direction: row;
+}
+.logoFooterContainer img{
+    max-width: 40%;
+    max-height: 40%;
+}
 /**************************PIZZAS PAGE**********************************/
 .menuContainer{
     display: flex;
