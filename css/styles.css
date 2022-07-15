@@ -97,9 +97,12 @@ main .bannerContainer{
     color: #f5f5f5;
     font-family: dancing script;
     font-size: 80px;
-
+    text-align: center;
 }
 /*******************************FOOTER***********************************/
+footer{
+    min-height: 200px;
+}
 
 /**************************PIZZAS PAGE**********************************/
 .menuContainer{
