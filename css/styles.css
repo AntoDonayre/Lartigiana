@@ -102,6 +102,12 @@ main .bannerContainer{
 /*******************************FOOTER***********************************/
 footer{
     min-height: 200px;
+    font-family: nunito;
+    color: #f5f5f5;
+}
+.contactano a{
+    text-decoration: none;
+    list-style-type: none;
 }
 
 /**************************PIZZAS PAGE**********************************/
