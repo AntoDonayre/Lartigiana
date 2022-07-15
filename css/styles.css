@@ -82,6 +82,9 @@ li a:hover{
     color: #f5f5f5;
 }
 /******************************MAIN***********************************/
+main{
+    min-height: 90vh;
+}
 .bannerContainer{
     display: flex;
     justify-content: center;
@@ -92,17 +95,10 @@ li a:hover{
     margin-top: 2%;
     margin-bottom: 2%;*/
 }
-.fraseBanner{
-    /*position: absolute;
-    top: 40%;
-    left: 30%;
-    /*transform: translate(-50%, -50%);
-    font-family: dancing script;
-    font-weight: bolder;
-    font-size: 190%;
-    color: #f5f5f5;*/
-}
 .fraseBanner h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: dancing script;
     color: #f5f5f5;
@@ -114,7 +110,9 @@ li a:hover{
 }
 /*******************************FOOTER***********************************/
 footer{
-    background-color: black;
+    /*background-color: black;*/
+    min-height: 100px;
+
 }
 .contactoRedesContainer{
     display: flex;
