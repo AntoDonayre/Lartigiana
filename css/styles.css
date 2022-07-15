@@ -86,27 +86,18 @@ main{
     min-height: 90vh;
 }
 .bannerContainer{
+    min-height: 90vh;
+}
+main .bannerContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*position: relative;
-    display: inline-block;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;*/
 }
 .fraseBanner h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: dancing script;
     color: #f5f5f5;
+    font-family: dancing script;
     font-size: 80px;
-}
-.bannerContainer img{
-    width: 80%;
-    height: 80%;
+
 }
 /*******************************FOOTER***********************************/
 footer{
