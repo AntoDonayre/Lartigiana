@@ -2498,3 +2498,7 @@ form p a:hover{
         color: #e4382a;
     }
 }
+/**********************ANIMACIONES*************************/
+.menuSpace img:hover{/*TOME DIRECTAMENTE AL PADRE QUE CONTIENE LAS IMAGENES DE TODAS LAS PIZZAS*/
+    transform: rotate(360deg);
+}
