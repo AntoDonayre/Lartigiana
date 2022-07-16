@@ -150,7 +150,7 @@ footer{
 }
 .contactoRedesContainer{
     margin: 1%;
-    max-width: 5%;
+    max-width: 100px;
     min-height: 23px
 }
 .contactoRedesContainer .redes{
@@ -485,6 +485,9 @@ form p a:hover{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    .contactoRedesContainer{
+        min-width: 100px;
+    }
 }
 /************************1024px***************************/
 @media (max-width: 1024px){
@@ -521,6 +524,12 @@ form p a:hover{
     .pizzaRegistroImg{
         display: none;
     }
+    .logoFooterContainer{
+        display: none;
+    }
+    .contactoRedesContainer{
+        min-width: 100px;
+    }
 }
 /******************768px*****************************/
 @media (max-width: 768px){
@@ -537,6 +546,9 @@ form p a:hover{
         justify-content: center;
         align-items: center;
     }
+    .contactoRedesContainer{
+        min-width: 100px;
+    }
 }
 /**********************600px***********************/
 @media (max-width: 600px){
@@ -549,6 +561,15 @@ form p a:hover{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .footerContainer{
+        flex-direction: column;
+    }
+    .logoFooterContainer{
+        display: none;
+    }
+    .contactoRedesContainer{
+        min-width: 100px;
     }
 }
 /********************520px*************************/
@@ -617,5 +638,13 @@ form p a:hover{
         max-height: 400px;
         min-height: 400px;
     }
-
+    .footerContainer{
+        flex-direction: column;
+    }
+    .logoFooterContainer{
+        display: none;
+    }
+    .contactoRedesContainer{
+        min-width: 100px;
+    }
 }
