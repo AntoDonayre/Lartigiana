@@ -14,6 +14,7 @@ body{
     justify-content: space-between;
     min-height: 100vh;
     background-image: url(../img/pizzaBanner3.jpg);
+    background-size: cover;
 }
 /*****************************HEADER***************************************/
 header{
@@ -475,4 +476,144 @@ form p a:hover{
 /**********************ANIMACIONES*************************/
 .menuSpace img:hover{/*TOME DIRECTAMENTE AL PADRE QUE CONTIENE LAS IMAGENES DE TODAS LAS PIZZAS*/
     transform: rotate(360deg);
+}
+/***********************MEDIA Q.***************************/
+/***********************1200px****************************/
+@media (max-width: 1200px){
+    .menuSpace{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/************************1024px***************************/
+@media (max-width: 1024px){
+    header{
+        max-width: 100%;
+        max-height: auto;
+        display: grid;
+        grid-template-rows: 60% 35%;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "logoContainer"
+        "lista";
+    }
+    .logoContainer{
+        grid-area: logoContainer;
+        margin: 0;
+    }
+    .lista{
+        margin-left: 15%;
+        max-width: 70%;
+        grid-area: lista;
+    }
+    .telefonoContainer{
+        display: none;
+        grid-area: telefonoContainer;
+    }
+    .logoContainer img{
+        max-width: 350px;
+        min-width: 280px;
+    }
+    a img{
+        margin-left: 8%;
+    }
+    .pizzaRegistroImg{
+        display: none;
+    }
+}
+/******************768px*****************************/
+@media (max-width: 768px){
+    .menuSpace{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tituloMenuSpace{
+        font-size: 100%;
+    }
+    .menuContainer .tituloMenuSpace{
+        min-width: 95%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/**********************600px***********************/
+@media (max-width: 600px){
+    .tituloMenuSpace{
+        font-size: 100%;
+    }
+    .menuContainer .tituloMenuSpace{
+        min-width: 95%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/********************520px*************************/
+@media (max-width: 520px){
+    .menuSpace{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pizza1{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza2{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza3{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza4{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza5{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza6{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza7{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza8{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza9{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .pizza10{
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 400px;
+        min-height: 400px;
+    }
+
 }
