@@ -97,7 +97,7 @@ main .bannerContainer{
 .fraseBanner h1{
     color: #f5f5f5;
     font-family: dancing script;
-    font-size: 80px;
+    font-size: 500%;
     text-align: center;
 }
 /*******************************FOOTER***********************************/
@@ -484,6 +484,12 @@ form p a:hover{
 /**********************ANIMACIONES*************************/
 .menuSpace img:hover{/*TOME DIRECTAMENTE AL PADRE QUE CONTIENE LAS IMAGENES DE TODAS LAS PIZZAS*/
     transform: rotate(360deg);
+}
+.fraseBanner h1{
+    transition: font-size 1.2s;
+}
+.fraseBanner h1:hover{
+    font-size: 650%
 }
 /***********************MEDIA Q.***************************/
 /***********************1200px****************************/
