@@ -486,16 +486,28 @@ form p a:hover{
     transform: rotate(360deg);
 }
 .lista ul li{
-    transition: font-size 1.2s;
+    transition: font-size 0.5s;
 }
 .lista ul li:hover{
     font-size: 120%;
 }
 .fraseBanner h1{
-    transition: font-size 1.2s;
+    transition: font-size 0.9s;
 }
 .fraseBanner h1:hover{
     font-size: 650%
+}
+.contactanos a{
+    transition: font-size 0.5s;
+}
+.contactanos a:hover{
+    font-size: 120%;
+}
+.redes a{
+    transition: font-size 0.5s;
+}
+.redes a:hover{
+    width: 105%;
 }
 /***********************MEDIA Q.***************************/
 /***********************1200px****************************/
