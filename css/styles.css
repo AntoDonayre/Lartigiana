@@ -485,6 +485,12 @@ form p a:hover{
 .menuSpace img:hover{/*TOME DIRECTAMENTE AL PADRE QUE CONTIENE LAS IMAGENES DE TODAS LAS PIZZAS*/
     transform: rotate(360deg);
 }
+.lista ul li{
+    transition: font-size 1.2s;
+}
+.lista ul li:hover{
+    font-size: 120%;
+}
 .fraseBanner h1{
     transition: font-size 1.2s;
 }
