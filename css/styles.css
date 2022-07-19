@@ -510,6 +510,7 @@ form p a:hover{
     width: 105%;
 }
 /***********************MEDIA Q.***************************/
+
 /***********************1200px****************************/
 @media (max-width: 1200px){
     .menuSpace{
@@ -518,6 +519,9 @@ form p a:hover{
     }
     .contactoRedesContainer{
         min-width: 100px;
+    }
+    .pizzaRegistroImg{
+        display: none;
     }
 }
 /************************1024px***************************/
@@ -551,9 +555,6 @@ form p a:hover{
     }
     a img{
         margin-left: 8%;
-    }
-    .pizzaRegistroImg{
-        display: none;
     }
     .logoFooterContainer{
         display: none;
