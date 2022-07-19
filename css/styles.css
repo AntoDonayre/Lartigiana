@@ -495,6 +495,13 @@ form p a:hover{
     .contactoRedesContainer{
         min-width: 100px;
     }
+    .logoContainer img{
+        margin-left: -20px;
+    }
+    .logoContainer a{
+        display: flex;
+        justify-content: center;
+    }
 }
 /************************1024px***************************/
 @media (max-width: 1024px){
@@ -581,6 +588,9 @@ form p a:hover{
 }
 /********************520px*************************/
 @media (max-width: 520px){
+    .bannerContainer{
+        margin-bottom: 5%;
+    }
     .menuSpace{
         grid-template-columns: repeat(1, 1fr);
         gap: 0.1%;/**aumentarlo provoca un desborde del footer**/
@@ -653,5 +663,13 @@ form p a:hover{
     }
     .contactoRedesContainer{
         min-width: 100px;
+    }
+}
+/******************************480px***********************************/
+@media (max-width: 480px){
+    .lista{
+        min-width: 95%;
+        margin: 1%;
+        padding: 1%;
     }
 }
