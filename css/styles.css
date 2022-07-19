@@ -689,8 +689,8 @@ form p a:hover{
 }
 /*****************************BOTON FLOTANTE WTSP***************************************/
 .btn-flotante img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 .btn-flotante {
     /*font-size: 16px;  Cambiar el tamaño de la tipografia */
@@ -700,7 +700,7 @@ form p a:hover{
     border-radius: 5px; /* Borde del boton */
     letter-spacing: 2px; /* Espacio entre letras */
     background-color: #f5f5f5; /* Color de fondo */
-    padding: 10px; /* Relleno del boton */
+    padding: 5px; /* Relleno del boton */
     position: fixed;
     bottom: 40px;
     right: 40px;
